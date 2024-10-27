@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /*Webfont Luciole (French for “firefly”) is a new typeface developed explicitly for visually impaired people. 
 The result of a two-year collaboration between the Centre Technique Régional pour la Déficience Visuelle (the Regional Technical Center for Visual Impairment) 
 and the type-design studio typographies.fr, this project received a grant from the Swiss Ceres Foundation 

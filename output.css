@@ -1578,6 +1578,10 @@ h1 {
 }
 
 @media (min-width: 640px) {
+  .sm\:relative {
+    position: relative;
+  }
+
   .sm\:-top-80 {
     top: -20rem;
   }
@@ -1643,6 +1647,10 @@ h1 {
     flex-direction: row;
   }
 
+  .sm\:bg-\[url\(\'\.\/public\/radio_main\.webp\'\)\] {
+    background-image: url('./public/radio_main.webp');
+  }
+
   .sm\:px-12 {
     padding-left: 3rem;
     padding-right: 3rem;
@@ -1685,6 +1693,16 @@ h1 {
 
   .sm\:ring-gray-900\/10 {
     --tw-ring-color: rgb(17 24 39 / 0.1);
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:bg-\[url\(\'\.\/public\/radio_main\.webp\'\)\] {
+    background-image: url('./public/radio_main.webp');
+  }
+
+  .md\:bg-cover {
+    background-size: cover;
   }
 }
 

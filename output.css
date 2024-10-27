@@ -1537,6 +1537,14 @@ h1 {
     display: none;
   }
 
+  .min-\[320px\]\:h-32 {
+    height: 8rem;
+  }
+
+  .min-\[320px\]\:w-32 {
+    width: 8rem;
+  }
+
   .min-\[320px\]\:max-w-\[80\%\] {
     max-width: 80%;
   }
@@ -1599,8 +1607,16 @@ h1 {
     display: flex;
   }
 
+  .sm\:h-40 {
+    height: 10rem;
+  }
+
   .sm\:w-\[72\.1875rem\] {
     width: 72.1875rem;
+  }
+
+  .sm\:w-40 {
+    width: 10rem;
   }
 
   .sm\:min-w-\[45\%\] {

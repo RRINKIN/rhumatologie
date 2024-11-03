@@ -1607,6 +1607,10 @@ h1 {
     margin-right: 3rem;
   }
 
+  .sm\:mr-12 {
+    margin-right: 3rem;
+  }
+
   .sm\:flex {
     display: flex;
   }
@@ -1738,6 +1742,10 @@ h1 {
 
   .lg\:mr-0 {
     margin-right: 0px;
+  }
+
+  .lg\:mr-12 {
+    margin-right: 3rem;
   }
 
   .lg\:block {
